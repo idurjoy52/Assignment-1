@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Typography */
+h1,h5 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+p{
+    color: #636e72;
+}
+
+.colored-text{
+    color:#EC4167;
+    font-weight: 700;
+}
+
+/* Banner Area */
+.banner-area {
+    overflow: hidden;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
+
+.half-width img {
+    width: 100%;
+    height: auto;
+}
+
+#banner-text {
+    margin-top: 210px;
+}
+
+/* Button */
+.link-button {
+    color: #ffffff;
+    background: linear-gradient(45deg,#EC4167,#EC4C78 );
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+
+.link-button:hover {
+    color: #EC4167;
+    background: #ffffff;
+    border: 2px solid #EC4C78;
+}
+
+/* Biography Area */
+.biography {
+    overflow: hidden;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#biography-text {
+    margin-top: 210px;
+}
+
+/* Work Section */
+.work-section {
+    overflow: hidden;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+}
+
+.work-text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.one-third-width {
+    width: 31.33%;
+    margin: 1%;
+    float: left;
+}
+
+.one-third-width img {
+    width: 100%;
+    height: auto;
+}
+
+/* Review Section */
+.review-section {
+    overflow: hidden;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0 180px;
+}
+
+.review-text {
+    margin: 50px 0;
+}
+
+.review-text h4 {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.review-text h5 {
+    color:  #636e72;
+    font-size: 12px;
+}
+
+.review-text p {
+    color: #000000;
+    font-size: 14px;
+}
+
+.email-section {
+    background: linear-gradient(45deg,#EC4167,#EC4C78 );
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.email-section p {
+    font-size: 14px;
+    color: #ffffff;
+}
+.email-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.email-section a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Section */
+.social-media-section {
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+/* Footer Area */
+.footer-area {
+    text-align: center;
+    padding: 40px 0;
+
+}
